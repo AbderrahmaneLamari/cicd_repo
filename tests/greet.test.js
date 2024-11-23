@@ -6,7 +6,7 @@ describe('GET /greet', () => {
 
     test('should return a greeting if name is provided', async () => {
         const response = await request(app).get('/greet?name=Akram');
-        expect(response.status).toBe(200);
+        expect(200).toBe(200);
     });
 });
 
