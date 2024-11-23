@@ -21,5 +21,10 @@ app.get('/haihai', (req, res) => {
 
 app.get('/',()=>{
     console.log('Hohoho');
+});
+
+app.get('/hoho', (req, res)=>
+{
+
 })
 module.exports = app;
