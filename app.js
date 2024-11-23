@@ -19,4 +19,12 @@ app.get('/haihai', (req, res) => {
     res.send('captain ole ola!');
 });
 
+app.get('/',()=>{
+    console.log('Hohoho');
+});
+
+app.get('/hoho', (req, res)=>
+{
+
+})
 module.exports = app;
